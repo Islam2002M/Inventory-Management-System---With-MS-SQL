@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryUsingMsSql2", "InventoryUsingMsSql2\InventoryUsingMsSql2.csproj", "{FA994DB6-DB9E-4644-AEB0-9F93699D9D99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublisherData", "PublisherData\PublisherData.csproj", "{C38CBA84-755A-4C8A-A055-F68BE3007A88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublisherDomain", "PublisherDomain\PublisherDomain.csproj", "{5B915C10-9653-4885-B721-98C47F906ECF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA994DB6-DB9E-4644-AEB0-9F93699D9D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA994DB6-DB9E-4644-AEB0-9F93699D9D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA994DB6-DB9E-4644-AEB0-9F93699D9D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA994DB6-DB9E-4644-AEB0-9F93699D9D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C38CBA84-755A-4C8A-A055-F68BE3007A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38CBA84-755A-4C8A-A055-F68BE3007A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38CBA84-755A-4C8A-A055-F68BE3007A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38CBA84-755A-4C8A-A055-F68BE3007A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B915C10-9653-4885-B721-98C47F906ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B915C10-9653-4885-B721-98C47F906ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B915C10-9653-4885-B721-98C47F906ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B915C10-9653-4885-B721-98C47F906ECF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

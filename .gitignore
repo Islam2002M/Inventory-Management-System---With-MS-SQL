@@ -1,0 +1,24 @@
+# Ignore build outputs and personal settings
+bin/
+obj/
+*.user
+*.suo
+
+# Ignore Visual Studio specific files
+.vscode/
+.vs/
+
+# Ignore database files
+*.mdf
+*.ldf
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore environment variables or sensitive data
+.env
+appsettings.json
+
+# Ignore publish outputs
+publish/
