@@ -1,19 +1,15 @@
 ﻿namespace PublisherDomain
 {
-    public class Price
+    public class Product
     {
-        public double ItemPrice { get; set; }
-        public Currency Curr { get; set; }
-
-        public Price(double itemPrice, Currency curr)
-        {
-            ItemPrice = itemPrice;
-            Curr = curr;
-        }
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public int Quantity { get; set; }
+        public Price Price { get; set; }
 
         public override string ToString()
         {
-            return $"{ItemPrice} {Curr}";
+            return $"{Name} - Quantity: {Quantity} - Price: {Price}";
         }
     }
 }
